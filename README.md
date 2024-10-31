@@ -1,8 +1,10 @@
 # Theseus' Labyrint
 
-Mening med dette mini projekt er at både lave et program som kan lave en labyrint, men også et program som kan løse en labyrint.
+Mening med dette mini projekt er at både lave et program som gennem Prim's algoritme kan lave en labyrint, og som så derefter gennem Depth-first search (DFS) kan løse den selv samme labyrint.
 
-De to dele af projektet kan findes i henholdsvis [labyrint generator](./Labyrint%20generator/) og [labyrint solver](./Labyrint%20solver/).
+Jeg har på [resultat siden](https://markusingerslev.github.io/Labyrint/) valgt at benytte version af projektet, hvor de to opgaver er blevet slået sammen til en. Dog har jeg forsat valgt at main version som ses på GitHub standard for projektet er den version, hvor de to opgaver stadig er delt op.
+
+#### Kort indholdsfortegnelse
 
  1. [Labyrint solve](#labyrint-solver)
  1. [Labyrint generator](#labyrint-generator)
