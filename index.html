@@ -11,15 +11,22 @@
   </head>
   <body>
     <main>
-      <h1>Theseus Labyrint</h1>
-      <div id="buttons">
-        <button id="start">Start</button>
-        <button id="reset">Reset</button>
+      <h1>Labyrint Generator og solver</h1>
+      <!-- Inputs til at style labyrintens generation og løsning -->
+      <div id="controls">
+        <label for="rows">Rækker:</label>
+        <input type="number" id="rows" value="10" min="1" />
+        <label for="cols">Kolonner:</label>
+        <input type="number" id="cols" value="10" min="1" />
+        <button id="generate">Generer Labyrint</button>
+        <button id="solve">Løs Labyrint</button>
+        <button id="reset">Nulstil</button>
       </div>
-      <div id="message"></div>
+
+      <!-- Selve Labyrinten -->
       <div id="labyrint"></div>
     </main>
 
-    <script type="module" src="./Labyrint solver/js/controller.js"></script>
+    <script type="module" src="./js/controller.js"></script>
   </body>
 </html>
