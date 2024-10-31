@@ -59,7 +59,7 @@ function visitCell(cell, maze, route, status) {
   const directions = ["east", "south", "west", "north"];
 
   // Ændre rækkefølgen på retninger for hvert besøg
-  shuffleDirections(directions);
+  // shuffleDirections(directions);
 
   // Loop over hver retning og besøg nabocellen hvis den ikke er besøgt
   for (let dir of directions) {
