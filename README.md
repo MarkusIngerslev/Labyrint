@@ -1,3 +1,6 @@
+
+
+
 # Theseus' Labyrint
 
 Mening med dette mini projekt er at både lave et program som gennem Prim's algoritme kan lave en labyrint, og som så derefter gennem Depth-first search (DFS) kan løse den selv samme labyrint.
@@ -27,6 +30,10 @@ Jeg viser backtracking i labyrinten. Når algoritmen backtracker fra en blindgyd
 
 Jeg beregner ruten i ét hug. Hele ruten fra start til mål bliver beregnet på én gang under udførelsen af DFS-algoritmen. Når ruden er fundet, bliver den vist på labyrinten med det samme uden nogen animation.
 
+<div align="center">
+<img src="./assets/smallMazeSolve.png" alt="Banner Image" style="width: 50%; height: auto;">
+</div>
+
 #### Andet relevant information om koden
 
 **Status håndtering:**
@@ -53,6 +60,8 @@ Til generering af labyrinter har jeg valgt at implementere Prim's algoritme for 
     - Fjern væggen fra væglisten.
 
 Denne proces forsætter, indtil alle celler er blevet en del af labyrinten. Resultatet er en perfekt labyrint, hvilket betyder, at der er en unik sti mellem enhver to punkter i labyrinten uden isolerede områder eller cyklusser,
+
+<img src="./assets/bigMazeGenerator.png" alt="Banner Image" style="width: 100%; height: auto;">
 
 #### Ressourcer brugt
 
