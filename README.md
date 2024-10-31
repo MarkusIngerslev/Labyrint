@@ -28,7 +28,7 @@ Jeg viser backtracking i labyrinten. Når algoritmen backtracker fra en blindgyd
 
 #### Beregning af ruten
 
-Jeg beregner ruten i ét hug. Hele ruten fra start til mål bliver beregnet på én gang under udførelsen af DFS-algoritmen. Når ruden er fundet, bliver den vist på labyrinten med det samme uden nogen animation.
+Jeg beregner ruten i ét hug. Hele ruten fra start til mål bliver beregnet på én gang under udførelsen af DFS-algoritmen. Når ruten er fundet, bliver den vist på labyrinten med det samme uden nogen animation.
 
 <div align="center">
 <img src="./assets/smallMazeSolve.png" alt="Banner Image" style="width: 50%; height: auto;">
