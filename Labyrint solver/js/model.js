@@ -1,4 +1,3 @@
-// model.js
 export default class Maze {
   constructor(mazeData) {
     this.rows = mazeData.rows;

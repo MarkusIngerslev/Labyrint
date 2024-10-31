@@ -1,4 +1,3 @@
-// view.js
 export default class MazeView {
   constructor(maze) {
     this.maze = maze;

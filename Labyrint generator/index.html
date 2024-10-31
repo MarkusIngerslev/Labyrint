@@ -1,0 +1,29 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="da">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="#" type="image/x-icon" />
+    <title>Labyrint Generator</title>
+  </head>
+  <body>
+    <main>
+      <h1>Labyrint Generator</h1>
+      <div id="controls">
+        <label for="rows">Rækker:</label>
+        <input type="number" id="rows" value="10" min="1" />
+        <label for="cols">Kolonner:</label>
+        <input type="number" id="cols" value="10" min="1" />
+        <button id="generate">Generer Labyrint</button>
+      </div>
+
+      <div id="labyrint"></div>
+      <pre id="json-output"></pre>
+    </main>
+
+    <script type="module" src="./js/controller.js"></script>
+  </body>
+</html>

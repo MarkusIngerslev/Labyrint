@@ -13,7 +13,7 @@ function start() {
 }
 
 function buildMaze() {
-  fetch("./mazes/maze2.json")
+  fetch("mazes/maze3.json")
     .then((response) => response.json())
     .then((data) => {
       const maze = new Maze(data);
