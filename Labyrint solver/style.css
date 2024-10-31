@@ -1,13 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+/* Centering af overskrift og knapper */
+h1 {
+  text-align: center;
+}
+
+#buttons {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+/* Centrering af labyrinten */
 #labyrint {
   display: grid;
-  grid-template-columns: repeat(4, 1fr); /* Juster baseret på maze størrelse */
+  justify-content: center;
+  margin: 20px auto;
+  box-sizing: border-box;
 }
+
+/* Celle styling */
 .cell {
-  width: 50px;
-  height: 50px;
-  position: relative;
+  width: 40px;
+  height: 40px;
+  background-color: #f0f0f0;
   border: 1px solid #ccc;
+  box-sizing: border-box;
+  position: relative;
 }
+
+/* Væg styling */
 .wall-north {
   border-top: 3px solid black;
 }
@@ -20,12 +47,11 @@
 .wall-west {
   border-left: 3px solid black;
 }
+
+/* Start og mål celler */
 .start {
   background-color: green;
 }
 .goal {
   background-color: red;
-}
-.path {
-  background-color: lightblue;
 }

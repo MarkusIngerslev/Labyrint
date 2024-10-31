@@ -7,6 +7,8 @@ export default class MazeView {
 
   displayMaze() {
     this.labyrinthElement.innerHTML = ""; // Rens tidligere visning
+    this.labyrinthElement.style.gridTemplateColumns = `repeat(${this.maze.cols}, 40px)`;
+
     this.maze.grid.forEach((row, rowIndex) => {
       row.forEach((cell, colIndex) => {
         const cellDiv = document.createElement("div");
