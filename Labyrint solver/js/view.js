@@ -38,4 +38,28 @@ export default class MazeView {
       });
     });
   }
+
+  displayroute(route) {
+    const cells = this.labyrinthElement.children;
+
+    for (let i = 0; i < route.size(); i++) {
+      const cell = route.get(i);
+      const cellIndex = cell.row * this.maze.cols + cell.col;
+      const cellDiv = cells[cellIndex];
+      cellDiv.classList.add("route");
+    }
+  }
+
+  displayBacktracks() {
+    const cells = this.labyrinthElement.children;
+
+    for (let i = 0; i < cells.length; i++) {
+      const cell =
+        this.maze.grid[Math.floor(i / this.maze.cols)][i % this.maze.cols];
+      if (cell.backtracked) {
+        const cellDiv = cells[i];
+        cellDiv.classList.add("backtrack");
+      }
+    }
+  }
 }

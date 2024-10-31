@@ -48,6 +48,16 @@ h1 {
   border-left: 3px solid black;
 }
 
+/* Rute styling */
+.route {
+  background-color: yellow;
+}
+
+/* Backtrack styling */
+.backtrack {
+  background-color: rgb(195, 121, 230);
+}
+
 /* Start og mål celler */
 .start {
   background-color: green;
