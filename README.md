@@ -72,7 +72,7 @@ Under udviklingen af labyrint generatoren har jeg brugt følgende ressourcer til
   - **Beskrivelse:** Artikel der giver en oversigt og grundlæggende forklaring omkring forskellige algoritmer til at kunne generere en labyrint.
 
 - Rosetta Code: Maze Generation
-  - [Maze generation - Rosetta Code](https://rosettacode.org/wiki/Maze_generation#HTML_Table)
+  - [Maze generation - Rosetta Code](https://rosettacode.org/wiki/Maze_generation#JavaScript)
   - **Beskrivelse:** Rosetta code er en samling af eksempler på, hvordan man løser de samme opgaver i forskellige programmeringssprog. Har benyttet denne side til at få en forståelse for hvordan man implementere dette i JavaScript.
 
 - Stack Overflow
